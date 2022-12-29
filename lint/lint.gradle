@@ -1,0 +1,8 @@
+android {
+    lintOptions {
+        absolutePaths = true
+        abortOnError true
+        baseline rootProject.file("lint/lint-baseline-config.xml")
+        warningsAsErrors true
+    }
+}
